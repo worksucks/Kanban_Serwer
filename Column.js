@@ -14,7 +14,7 @@ function Column(id, name) {
         var cardName = prompt("Enter the name of the card");
         event.preventDefault();
 
-        var data = new.FormData();
+        var data = new FormData();
         data.append('name', cardName);
         data.append('bootcamp_kanban_column_id', self.id);
 
